@@ -30,4 +30,9 @@
 // 3.git checkout <分支名称>  ---切换分支
 // 4.git checkout -b <分支名称>  ---创建并切换到分支
 // 5.git branch -d <分支名称>  ---只能删除合并之后的分支
-// 6.git merge <分支名称>  ---合并制定分支到当前分支
+// 6.git merge <分支名称>  ---合并制定分支到当前分支  ---默认fast forward模式
+// 7.git merge --no-ff m '备注' <分支名称>  ---禁用fast forward 模式
+// 		---合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
+// 8.git stash  ---当前工作区“储藏”起来，等以后恢复现场后继续工作
+//		---git stash 后用git status查看工作区就是干净的
+// 9.git stash pop  ---恢复工作区储藏的代码，同时删除stash内容
