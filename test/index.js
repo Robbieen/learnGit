@@ -23,6 +23,7 @@
 // 		---git push -u origin master   ---第一次推送master分支的所有内容
 //		---git push origin master  ---后续可以此方式推送最新修改
 // 7.git clone <远程仓库地址> <项目名称> ---把远程仓库分支下载到本地
+// 8. git push origin <:newBranch>  ---:表示删除这个分支
 
 //------------ github 分支管理 --------------
 // 1.git branch  ---查看分支
