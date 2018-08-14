@@ -8,3 +8,5 @@
 // 7. git add .  将所有文件列表保存到暂存区
 // 8. git commit -m <备注> 将暂存区文件提交到本地仓库
 // 9. git checkout --<file> 回滚修改的内容
+// 10. git reset HEAD <file> 清空git add向暂存区提交的修改但不影响工作区
+// 11.
