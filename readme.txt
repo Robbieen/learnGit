@@ -1,4 +1,4 @@
-// ---------- git本地仓库---------
+﻿// ---------- git本地仓库---------
 // 1. git init    初始化新的管理项目
 // 2. git config --global user.name <userName> 		设置用户名
 // 3. git config --global user.email <userEmail> 		设置用户email
@@ -27,6 +27,7 @@
 // 6.git merge <分支名称>  ---合并制定分支到当前分支  ---默认fast forward模式
 // 7.git merge --no-ff m '备注' <分支名称>  ---禁用fast forward 模式
 // 		---合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
+//   git merge origin/分支名  ---- 将远程分支代码合并到当前所在分支
 // 8.git stash  ---当前工作区“储藏”起来，等以后恢复现场后继续工作
 //		---git stash 后用git status查看工作区就是干净的
 // 9.git stash pop  ---恢复工作区储藏的代码，同时删除stash内容
